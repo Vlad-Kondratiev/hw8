@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Нормализация -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
         <!-- Основные шрифты -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,29 +18,36 @@
     </head>
     
     <body>
+        <!-- Header -->
         <header class="header">
-            <a class="logo link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
-            <nav class="nav">
-                <ul class="nav-list list">
-                    <li class="list-item">
-                        <a class="nav-link link" href="index.html">Студия</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link link" href="portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link link" href="">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <a class="header-mail" href="">info@devstudio.com</a>
-            <a class="header-phone" href="">+38 096 111 11 11</a>
+            <div class="container header-container">
+                <a class="logo link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
+                <nav class="nav">
+                    <ul class="nav-list list">
+                        <li class="list-item">
+                            <a class="nav-link link" href="index.html">Студия</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav-link link" href="portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav-link link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-wripper">
+                    <a class="header-mail" href="">info@devstudio.com</a>
+                    <a class="header-phone" href="">+38 096 111 11 11</a>
+                </div>
+            </div>
+            
         </header>
 
         <main>
             <!-- ================ Hero ========================= -->
             <section class="hero">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА
+                </h1>
                 <button class="hero-btn" type="button">заказать услугу</button>
             </section>
             <!-- =================Детали++++++++++++++++++++++++ -->
