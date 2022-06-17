@@ -5,6 +5,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Нормализация -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+
         <!-- Основные шрифты -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,28 +19,35 @@
     </head>
     
     <body>
+        <!-- Header -->
         <header class="header">
-            <a class="logo link link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
-            <nav class="nav">
-                <ul class="nav-list list">
-                    <li class="list-item">
-                        <a class="nav-link link" href="index.html">Студия</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link link" href="portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="list-item">
-                        <a class="nav-link link" href="">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <a class="header-mail" href="">info@devstudio.com</a>
-            <a class="header-phone" href="">+38 096 111 11 11</a>
+            <div class="container header-container">
+                <a class="logo link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
+                <nav class="nav">
+                    <ul class="nav-list list">
+                        <li class="list-item">
+                            <a class="nav-link link" href="index.html">Студия</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav-link link" href="portfolio.html">Портфолио</a>
+                        </li>
+                        <li class="list-item">
+                            <a class="nav-link link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-wripper">
+                    <a class="header-mail" href="">info@devstudio.com</a>
+                    <a class="header-phone" href="">+38 096 111 11 11</a>
+                </div>
+            </div>
+            
         </header>
 <main>
     <!-- ================ Hero ========================= -->
     <section class="port-hero">
-        <h1 class="hero-nav">навигация</h1>
+        <div class="container port-hero-container">
+            <h1 class="hero-nav">навигация</h1>
             <ul class="hero-nav-list list">
                 <li class="hero-nav-list-item">
                     <button class="hero-nav-btn" type="button">Веб-сайты</button></li>
@@ -49,87 +60,87 @@
                 <li class="hero-nav-list-item">
                     <button class="hero-nav-btn" type="button">Маркетинг</button></li>
             </ul>
+        </div>
+        
     </section>
     <section>
-        <h1 class="hero-title">галерея</h1>
-        <ul class="hero-list list">
-            <li class="hero-list-item"><img src="./images/img1.jpg" alt="шефы" width="370" height="294">
-                <h2 class="hero-list-title">Технокряк</h2>
-                <p class="hero-list-description">Веб-сайт</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img2.jpg" alt="баскетболисты" width="370" height="294">
-                <h2 class="hero-list-title">Постер New Orlean vs Golden Star</h2>
-                <p class="hero-list-description">Дизайн</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img3.jpg" alt="лого ресторан" width="370" height="294">
-                <h2 class="hero-list-title">Ресторан Seafood</h2>
-                <p class="hero-list-description">Приложение</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img4.jpg" alt="наушники" width="370" height="294">
-                <h2 class="hero-list-title">Проект Prime</h2>
-                <p class="hero-list-description">Маркетинг</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img5.jpg" alt="коробочки" width="370" height="294">
-                <h2 class="hero-list-title">Проект Boxes</h2>
-                <p class="hero-list-description">Приложение</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img6.jpg" alt="монитор" width="370" height="294">
-                <h2 class="hero-list-title">Inspiration has no Borders</h2>
-                <p class="hero-list-description">Веб-сайт</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img7.jpg" alt="книжка" width="370" height="294">
-                <h2 class="hero-list-title">Издание Limited Edition</h2>
-                <p class="hero-list-description">Дизайн</p>
-            </li>
-            
-            <li class="hero-list-item"><img src="./images/img8.jpg" alt="бирка" width="370" height="294">
-                <h2 class="hero-list-title">Проект LAB</h2>
-                <p>Маркетинг</p>
-            </li>
-            <li class="hero-list-item">
-                <img src="./images/img9.jpg" alt="ноутбук" width="370" height="294">
-                <h2 class="hero-list-title">Growing Business</h2>
-                <p>Приложение</p>
-            </li>
-            
-        </ul>
+        <div class="container hero-title-container">
+
+            <h1 class="hero-title">галерея</h1>
+            <ul class="hero-list list">
+                <li class="hero-list-item"><img src="./images/img1.jpg" alt="шефы" width="370" height="294">
+                    <h2 class="hero-list-title">Технокряк</h2>
+                    <p class="hero-list-description">Веб-сайт</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img2.jpg" alt="баскетболисты" width="370" height="294">
+                    <h2 class="hero-list-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="hero-list-description">Дизайн</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img3.jpg" alt="лого ресторан" width="370" height="294">
+                    <h2 class="hero-list-title">Ресторан Seafood</h2>
+                    <p class="hero-list-description">Приложение</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img4.jpg" alt="наушники" width="370" height="294">
+                    <h2 class="hero-list-title">Проект Prime</h2>
+                    <p class="hero-list-description">Маркетинг</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img5.jpg" alt="коробочки" width="370" height="294">
+                    <h2 class="hero-list-title">Проект Boxes</h2>
+                    <p class="hero-list-description">Приложение</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img6.jpg" alt="монитор" width="370" height="294">
+                    <h2 class="hero-list-title">Inspiration has no Borders</h2>
+                    <p class="hero-list-description">Веб-сайт</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img7.jpg" alt="книжка" width="370" height="294">
+                    <h2 class="hero-list-title">Издание Limited Edition</h2>
+                    <p class="hero-list-description">Дизайн</p>
+                </li>
+                
+                <li class="hero-list-item"><img src="./images/img8.jpg" alt="бирка" width="370" height="294">
+                    <h2 class="hero-list-title">Проект LAB</h2>
+                    <p>Маркетинг</p>
+                </li>
+                <li class="hero-list-item">
+                    <img src="./images/img9.jpg" alt="ноутбук" width="370" height="294">
+                    <h2 class="hero-list-title">Growing Business</h2>
+                    <p>Приложение</p>
+                </li>
+                
+            </ul>
+        </div>
+        
     </section>
     
 </main> 
-<footer class="footer">
-    <a class="footer-link link" href="" lang="en">
-        <span class="footer-logo-accent">Web</span>Studio
-    </a>
-    <!-- <ul class="contact-list list">
-        <li>
-            <a class="test" href="">info@devstudio.com</a>
-        </li>
-        <li>
-            <a class="test" href="">+38 096 111 11 11</a>
-        </li>
-    </ul> -->
-    
-    <ul class="contact-list list">
-        <li class="contact-item">
-            <a class="contact-link-adress" href="">г. Киев, пр-т Леси Украинки, 26</a>                 
-        </li>
-        <li class="contact-item">
-            <a class="contact-link" href="">info@devstudio.com</a>
-        </li>
-        <li class="contact-item">
-            <a class="contact-link" href="">+38 096 111 11 11</a>
-        </li>
-    </ul>     
 
-    <!-- <address class="contact">
-        
-    </address> -->
-</footer>      
+<!-- footer -->
+
+<footer class="footer">
+    <div class="container footer-container">
+        <a class="footer-link link" href="" lang="en">
+            <span class="footer-logo-accent">Web</span>Studio
+        </a>
+    
+        <ul class="contact-list list">
+            <li class="contact-item">
+                <a class="contact-link-adress" href="">г. Киев, пр-т Леси Украинки, 26</a>                 
+            </li>
+            <li class="contact-item">
+                <a class="contact-link" href="">info@devstudio.com</a>
+            </li>
+            <li class="contact-item">
+                <a class="contact-link" href="">+38 096 111 11 11</a>
+            </li>
+        </ul>     
+    </div>
+            </footer> 
+
 </body>
 </html>
