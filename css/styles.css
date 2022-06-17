@@ -358,7 +358,7 @@ color: var(--accent-txt);
     display: flex;
     margin-top: 94px;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     
 }
 
@@ -401,6 +401,10 @@ color: var(--accent-txt);
 
 }
 
+.hero-title-port{
+    visibility: hidden;
+}
+
 .hero-list-description {
     font-family: var(--main-font);
     font-weight: 400;
@@ -415,10 +419,15 @@ color: var(--accent-txt);
     flex-wrap: wrap;
 }
 .hero-list-item{
-    width: 360px;
+    width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
     
+    
+}
+
+.hero-list-item:nth-child(3n) {
+    margin-right: 0%;
 }
 
 .hero-list-item:nth-child(-n + 3) {
