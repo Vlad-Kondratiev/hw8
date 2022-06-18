@@ -26,11 +26,9 @@ a {
 
 .body{
 font-family: var(--main-font);
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 
-color: var(--primary-light-txt)
+
+color: var(--primary-light-txt);
 
 }
 
@@ -38,7 +36,11 @@ h1, h2, h3, h4, p {
     margin-top: 0; 
 }
 
-
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 .list{
     padding-left: 0;
@@ -62,10 +64,11 @@ h1, h2, h3, h4, p {
 .header-container{
     display: flex;
     align-items: center;
+    margin-top: 11px;
 }
 
 .logo {
-    font-family: 'Raleway',sans-serif;
+    font-family:'Raleway',sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -74,7 +77,19 @@ h1, h2, h3, h4, p {
     color: #212121; 
     margin-right: 93px;
 }
-    
+
+.logo-accent {
+    font-family:'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+
+
+
 .nav-list{
     display: flex;
     align-items: center;
@@ -82,16 +97,22 @@ h1, h2, h3, h4, p {
 }
 
 .nav-link{
-    margin-right: 50px;
+margin-right: 50px;
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color:var(--primary-light-txt);
 }
 
 .list-item:last-child{
     margin: 0;
 }
 
-.logo-accent {
-    color: #2196f3;
-}
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -99,9 +120,18 @@ h1, h2, h3, h4, p {
 }
 
 .header-wripper{
-    display: flex;
-    align-items: center;
-    margin-left: auto;    
+display: flex;
+align-items: center;
+margin-left: auto; 
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--secondary-light-txt);
+
 }
 
 .header-mail{
@@ -305,7 +335,7 @@ color: var(--accent-txt);
 
 .footer-logo-accent{
     
-    font-family: 'Raleway',sans-serif;
+    font-family:   'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1,19;
@@ -321,10 +351,13 @@ color: var(--accent-txt);
     line-height: 1,19;
     letter-spacing: 0.03em;
     color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 19px;
 }
 
 .contact-list{
     padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .contact-link-adress {
@@ -334,6 +367,7 @@ color: var(--accent-txt);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--primary-dark-text);
+    padding-bottom: 10px;
 }
 .contact-link {
     font-family: var(--main-font);
@@ -342,6 +376,7 @@ color: var(--accent-txt);
     line-height: 1.71; 
     letter-spacing: 0.03em; 
     color: var(--secondary-light-txt);
+    padding-bottom: 9px;
 }
 
 /* .contact-item {
