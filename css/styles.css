@@ -20,14 +20,16 @@
 --primary-dark-bg:#2F303A;
 }
 
+/* Акцент */
+
+--accent-color: #2196F3
+
 a {
     text-decoration: none;
 }
 
 .body{
 font-family: var(--main-font);
-
-
 color: var(--primary-light-txt);
 
 }
@@ -72,7 +74,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #212121; 
     margin-right: 93px;
@@ -83,7 +85,7 @@ ul {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196f3;
 }
@@ -117,6 +119,7 @@ color:var(--primary-light-txt);
 .nav-link:hover,
 .nav-link:focus {
     color: var(--accent-txt);
+
 }
 
 .header-wripper{
