@@ -32,6 +32,7 @@ a {
 }
 
 .body{
+margin: 0;
 font-family: var(--main-font);
 color: var(--primary-light-txt);
 
@@ -157,12 +158,39 @@ color: var(--secondary-light-txt);
     margin-right: 0;
 }
 
+.header-mail::before{
+    content: "";
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/box2min.png);
+    background-size: contain;
+}
+
 /* hero */
+
+
+
 .hero {
     text-align: center;
-    background-color: var(--primary-dark-bg);
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F303A;
+
+
+
+background-image: linear-gradient(to right,
+rgba(47,48,58,0.4),
+rgba(47, 48, 58, 0.4)
+),
+url(../images/backgraund.jpg);
+
+
+
+
 }
 
 .hero-title {
