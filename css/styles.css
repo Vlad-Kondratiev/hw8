@@ -451,6 +451,14 @@ color: var(--accent-txt);
     text-align: center;
 }
 
+.socials-icon{
+    fill: #AFB1B8;
+}
+
+.socials-list{
+    display: flex;
+}
+
 /* Footer */
 .footer{
     background-color: var(--primary-dark-bg);
