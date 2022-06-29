@@ -614,8 +614,13 @@ border-color: var(--accent-color);
     padding-top: 60px;
     padding-bottom: 60px;
     width: 1600px;
-    height: 252px;
+    height: 252px; 
+    
 }
+
+/* .footer-main{
+    display: flex;
+} */
 
 .footer-conteiner {
     display: flex;
@@ -669,10 +674,9 @@ color: #FFFFFF;
 
 
 .footer-wripper{
-
-    /* display: flex; */
+    display: flex; 
     padding-right: 678px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
 }
 /* 
 .contact-list{
@@ -718,11 +722,11 @@ color: #FFFFFF;
     } 
     
     
-    .socials-item:not(:last-child){
+    .footer-socials-item:not(:last-child){
         margin-right: 10px;
     }
     
-    .socials-link{
+    .footer-socials-link{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -734,34 +738,25 @@ color: #FFFFFF;
     
     } 
     
-    .socials-link:hover,
-    .socials-link:focus {
+    .footer-socials-link:hover,
+    .footer-socials-link:focus {
     background-color: var(--accent-color);
     color: var(--ptymary-light-bg);
     }
     
-    .socials-link:hover .social-icon,
-    .socials-link:focus .social-icon{
+    .footer-socials-link:hover .social-icon,
+    .footer-socials-link:focus .social-icon{
         fill: var(--ptymary-light-bg);
     }
     
-    .social-icon{
+    .footer-social-icon{
         fill:currentColor;
     }
     
-    .staff-title{
-        text-align: center;
-        font-family: var(--main-font);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        color: var(--accent-txt);
-    }
     
     
     
-    .staff-wripper{
+    .footer-wripper{
         padding-top: 30px;
         padding-bottom: 30px;
     
@@ -769,50 +764,13 @@ color: #FFFFFF;
     }
     
     
-    .staff-list-item {
-        margin-right: 30px;
-        font-family: var(--main-font);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--accent-txt);
-    }
-    
-    .staff-list-item:last-child{
-        margin: 0;
-    }
-    
-    .staff-list-name{
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
     
     
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: var(--accent-txt);
-    
-    }
-    
-    .staff-list-subitem {
-        font-family: var(--main-font);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--secondary-light-txt);
-        text-align: center;
-    }
-    
-    .socials-icon{
+    .footer-socials-icon{
         fill: #AFB1B8;
     }
     
-    .socials-list{
+    .footer-socials-list{
         display: flex;
         justify-content: center;
         align-items: center;
