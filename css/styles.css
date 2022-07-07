@@ -926,7 +926,7 @@ border-color: var(--accent-color);
 .hero-list-item-cont{
     padding: 20px 24px;
     border: 1px solid #eeeeee;
-
+    
 }
 
 .hero-title-port{
@@ -950,6 +950,8 @@ border-color: var(--accent-color);
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    position: relative;
+
     
     
 }
@@ -965,3 +967,48 @@ border-color: var(--accent-color);
 .hero-title-container{
     margin-bottom: 94px;
 }
+
+.hero-list-action-text{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.56;
+/* or 156% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.hero-list-action{
+position: absolute;
+width: 370px;
+height: 294px;
+left: 0; 
+top: 0;
+
+background: rgba(33, 150, 243, 0.9);
+}
+
+.hero-list-item::before{
+    display: inline-block;
+    content: "";
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 0; 
+    top: 0;
+    background: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+    transform: translateY(100%); 
+}
+
+.hero-list-item:hover::before{
+    opacity: 1;
+}
+
+/* 
+.hero-list-item:hover .hero-list-item::before{
+    transform: translateY(0);
+}  */
