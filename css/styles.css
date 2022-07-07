@@ -980,7 +980,7 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 }
-
+/* 
 .hero-list-action{
 position: absolute;
 width: 370px;
@@ -989,9 +989,9 @@ left: 0;
 top: 0;
 
 background: rgba(33, 150, 243, 0.9);
-}
+} */
 
-.hero-list-item::before{
+.hero-list-item-tumb::before{
     display: inline-block;
     content: "";
     position: absolute;
@@ -1002,13 +1002,14 @@ background: rgba(33, 150, 243, 0.9);
     background: rgba(33, 150, 243, 0.9);
     opacity: 0;
     transform: translateY(100%); 
+    transition: transform 250ms;
 }
 
-.hero-list-item:hover::before{
+.hero-list-item-tumb:hover::before{
     opacity: 1;
 }
 
-/* 
-.hero-list-item:hover .hero-list-item::before{
+
+.hero-list-item:hover .hero-list-item-tumb::before{
     transform: translateY(0);
-}  */
+} 
