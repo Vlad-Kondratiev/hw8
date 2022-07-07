@@ -968,7 +968,7 @@ border-color: var(--accent-color);
     margin-bottom: 94px;
 }
 
-.hero-list-action-text{
+/* .hero-list-action-text{
 font-family: var(--main-font);
 font-style: normal;
 font-weight: 400;
@@ -979,8 +979,8 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
-}
-/* 
+/* } */
+/*  */
 .hero-list-action{
 position: absolute;
 width: 370px;
@@ -1003,7 +1003,46 @@ background: rgba(33, 150, 243, 0.9);
     opacity: 0;
     transform: translateY(100%); 
     transition: transform 250ms;
+
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+
+ */
+
 }
+
+/* .hero-list-item{
+    position: relative;
+} */
+/* 
+.hero-tumb-text{
+position: absolute;
+width: 322px;
+height: 173px;
+left: 239px;
+top: 320px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+/* 
+letter-spacing: 0.03em;
+/*  */
+color: #FFFFFF;
+} */ */
+
+
 
 .hero-list-item-tumb:hover::before{
     opacity: 1;
@@ -1013,3 +1052,9 @@ background: rgba(33, 150, 243, 0.9);
 .hero-list-item:hover .hero-list-item-tumb::before{
     transform: translateY(0);
 } 
+
+.hero-list-item:hover{
+
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
