@@ -747,7 +747,7 @@ border-color: var(--accent-color);
 
 .footer-link{
     padding-top: 60px;  
-} */
+} 
 
 
 
@@ -894,6 +894,7 @@ border-color: var(--accent-color);
     .footer-wripper{
         padding-top: 30px;
         padding-bottom: 30px;
+        margin-right: 93px;
     
     
     }
@@ -910,6 +911,29 @@ border-color: var(--accent-color);
         width: 44px;
         height: 44px;
     
+    }
+
+
+
+
+    .sub-span{
+        /* position: absolute;
+width: 219px;
+height: 13.02px;
+left: 815px;
+top: 2752px; */
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 16.28px;
+
     }
     
 
