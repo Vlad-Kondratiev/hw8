@@ -916,12 +916,7 @@ border-color: var(--accent-color);
 
 
 
-    .sub-span{
-        /* position: absolute;
-width: 219px;
-height: 13.02px;
-left: 815px;
-top: 2752px; */
+    .sub-span-title{
 
 font-family: var(--main-font);
 font-style: normal;
@@ -932,13 +927,33 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #FFFFFF;
-margin-bottom: 16.28px;
+padding-bottom: 16.28px;
 
     }
     
+.subscribe-input-wrap{
+    display: flex;
+}
 
 
+.sub-span-title{
+    margin-bottom: 10px;
+}
 
+.sub-email-form{
+    width: 358px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    
+}
+
+.subscribe-btn{
+    width: 200px;
+    height: 40.7px; 
+    margin-left: 12px;
+}
 /* portfolio */
 
 .hero-nav-list{

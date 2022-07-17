@@ -400,20 +400,35 @@
                     </ul>
             </div>  
 
-            <div class="subscription">
-                <span class="sub-span">ПОДПИШИТЕСЬ НА РАССЫЛКУ</span>
-                <form name="signup_form" autocomplete="on" novalidate>
+            <form class="footer-subscribe-box">
+                
+                <h3 class="sub-span-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                <div class="subscribe-input-wrap">
+                <form class="signup-form">
                     <label>
                     
-                    <input type="email" name="email" />
+                    <input class="sub-email-form"
+                    type="sub-email" 
+                    name="sub-email" 
+                    id="sub-email"
+                    placeholder="E-mail"
+                    required
+                    />
                     </label>
                 
                                     
-                    <button type="submit">Submit</button>
+                    <button class="subscribe-btn" type="submit">
+
+                        <svg class="subscribe-send-icon" width="24" height="20">
+                            <use href="./images/icon/icon.svg#icon-icon-send"></use>
+                        </svg>Подписаться
+
+                    </button>
+                    
                 </form>
 
             </div>
-
+        </form>
             
         </div>
 
