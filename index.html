@@ -449,7 +449,9 @@
         </svg>
     </button>
     <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
-    <form class="modal__form">
+    
+
+    <form class="modal__form" action="">
         <div class="form-field">
             <label for="user-name" class="modal__label">Имя</label>
                 <div class="modal__input-wrap">
@@ -465,7 +467,8 @@
                 </svg>
             </div>
         </div>
-        <form class="modal__form">
+        
+        
             <div class="form-field">
                 <label for="user-tel" class="modal__label">Телефон</label>
                     <div class="modal__input-wrap">
@@ -481,7 +484,8 @@
                     </svg>
                 </div>
             </div>
-            <form class="modal__form">
+            
+            
                 <div class="form-field">
                     <label for="user-tel" class="modal__label">Почта</label>
                         <div class="modal__input-wrap">
@@ -495,9 +499,10 @@
                         <svg class="modal__icon" width="18" height="18">
                             <use href="./images/icon/icon.svg#icon-email-black"></use>
                         </svg>
+
                     </div>
                 </div>
-    
+            
 
                 <div class="form-field">
                     <label for="user-tel" class="modal__label">Комментарии</label>
@@ -512,9 +517,9 @@
 
     <div class="form-field modal__check-field">
             <input type="checkbox"
-            name="modal__check"
+            name="modal-check"
             class="modal__check visually-hidden"
-            id="modal__check"
+            id="modal-check"
             />
             <label for="modal-check" class="modal__check-text"
                         ><span
@@ -528,10 +533,8 @@
         
 
     <button type="submit" class="submit-btn btn">Отправить</button>
+
 </form>
-
-
-
 
 
 </div>

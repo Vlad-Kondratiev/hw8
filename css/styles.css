@@ -1325,7 +1325,7 @@ color: rgba(117, 117, 117, 0.5);
     border: 0;
     padding: 0;
     clip: rect(0 0 0 0);
-    /* clip-path: inset(50%); */
+    clip-path: inset(50%);
     margin: -1px;
 } 
 
@@ -1374,8 +1374,6 @@ align-items: center;
     display: block;
     margin-bottom: 30px;
 }
-
-
 
 
 .submit-btn{
