@@ -7,8 +7,18 @@
 
 }
 
+.navigation{
+    @media (min-widht: 1024px) {display: none;
+        
+    }
 
+}
 
+.header-wripper{
+    @media (min-widht: 1024px) {display: none;
+    
+    }
+}
 
 .logo {
     font-family:'Raleway',sans-serif;
