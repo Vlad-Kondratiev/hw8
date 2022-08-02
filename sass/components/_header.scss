@@ -1,18 +1,35 @@
 
 /* Header */
 
-.header__container{
+.header{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:black;
+    background-color: var(--primary-bg-color);
+}
+
+&__container{
+    width: 100%;
     display: flex;
     align-items: center;
 
 }
 
 .navigation{
-    @media (min-widht: 1024px) {display: none;
-        
+    display: none;
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        margin-left: auto;
     }
-
+    
+    @media screen and (min-width:1200px) {
+        margin-left: 88px    
+    }
 }
+    
+
+
 
 .header-wripper{
     @media (min-widht: 1024px) {display: none;
