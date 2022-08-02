@@ -216,19 +216,19 @@ ul {
 }
 
 .container {
-  max-width: 480px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid red;
 }
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
 }
-@media screen and (min-widht: 1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
@@ -372,18 +372,14 @@ ul {
   }
 }
 
-.contacts-link {
+.contacts__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.contacts .contacts-item + .contacts-item {
+.contacts .contacts__item + .contacts__item {
   margin-left: 50px;
-}
-
-.nav {
-  margin-left: 94px;
 }
 
 .contacts__link {

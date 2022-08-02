@@ -153,22 +153,22 @@ display: none;
 
 
 
-.contacts-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+.contacts__link {
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 
 
 
-.contacts .contacts-item + .contacts-item {
+.contacts .contacts__item + .contacts__item {
     margin-left: 50px;
 } 
 
-.nav {
-    margin-left: 94px;
-}
+// .nav {
+//     margin-left: 94px;
+// }
 
 .contacts__link {
     display: flex;
