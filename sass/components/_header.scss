@@ -6,14 +6,17 @@
     border-bottom-style: solid;
     border-bottom-color:black;
     background-color: var(--primary-bg-color);
+
+    &__container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    
+    }
+
 }
 
-&__container{
-    width: 100%;
-    display: flex;
-    align-items: center;
 
-}
 
 .navigation{
     display: none;
@@ -31,11 +34,6 @@
 
 
 
-.header-wripper{
-    @media (min-widht: 1024px) {display: none;
-    
-    }
-}
 
 .logo {
     font-family:'Raleway',sans-serif;
@@ -134,9 +132,26 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts {
-display: flex;
-margin-left: auto;
+display: none;
+
+
+
+@media screen and(min-width:768px) {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
+
+@media screen and(min-width:1200px) {
+    flex-direction: row;
+}
+
+
+}
+
+
 
 .contacts-link {
     display: block;
