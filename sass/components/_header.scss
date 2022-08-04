@@ -166,7 +166,6 @@ display: none;
 &__link {
         padding-top: 0px;
         padding-bottom: 0;
-        @include align-flex;
         justify-content: center;
         color: #757575;
     
