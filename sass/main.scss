@@ -1,26 +1,10 @@
-// veriables
-@import "./variables/variables";
+@import "/utils/vars";
 
-// utilits
-@import "./utils/utils";
+// @import "./base/reset";
+// @import "./base/common";
 
+// @import ".utils/hidden";
 
-// base style
-@import "./base/base";
-
-// reset style
-
-
-// components
-@import "./components/btn";
-@import "./components/container";
-@import "./components/header";
-@import "./components/hero";
-@import "./components/about";
-@import "./components/about-us";
-@import "./components/staff";
-@import "./components/clients";
-@import "./components/portfolio";
-@import "./components/footer";
-@import "./components/modal";
+// 
+@import ".components/header";
 

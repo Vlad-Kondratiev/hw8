@@ -28,13 +28,9 @@
     
     @media screen and (min-width:1200px) {
         margin-left: 88px;
-        margin-right: 305px;
+        // margin-right: 305px;
     }
 }
-    
-
-
-
 
 .logo {
     font-family:'Raleway',sans-serif;
@@ -45,35 +41,27 @@
     letter-spacing: 0.03em;
     color: #212121; 
     margin-right: 93px;
+
+    &__accent {
+        color:red;
+    }
 }
 
-.logo__accent {
-    font-family:'Raleway',sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color:red;
-}
+// .menu-btn{
+//     color: aqua;
+//     margin: 0;
+//     padding: 0;
+//     border: none;
+//     background-color: transparent;
+// }
 
+// .menu-btn .icon-cross{
+//     display: none;
+// }
 
-
-.menu-btn{
-    color: aqua;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-}
-
-.menu-btn .icon-cross{
-    display: none;
-}
-
-.menu-btn .is-open .icon-cross{
-    display: block;
-}
+// .menu-btn .is-open .icon-cross{
+//     display: block;
+// }
 
 
 .site-nav{
