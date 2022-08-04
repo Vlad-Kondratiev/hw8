@@ -1,12 +1,12 @@
 .about-us { 
-    @media (min-widht: 1024px) {display: none;
-    
-}
-    
+    @media (min-widht: 1024px) {
+        display: none;
+    }
+   
 }
 
 
-about-us__title{
+.about-us__title{
     text-align: center;
     font-family: var(--main-font);
     font-weight: 700;
@@ -19,6 +19,7 @@ about-us__title{
 .about-us__list {
     display: flex;
 }
+
 .about-us__item{
     margin-right: 30px;
     margin-bottom: 188px;
@@ -47,8 +48,6 @@ color: #FFFFFF;
     min-height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
     margin: 0;
-
-
 }
 
 .about-us__item:last-child{
