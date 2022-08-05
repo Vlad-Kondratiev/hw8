@@ -140,7 +140,7 @@ button {
   margin-right: 93px;
 }
 .logo__accent {
-  color: red;
+  color: var(--accent-color);
 }
 
 .site-nav {
@@ -263,6 +263,9 @@ button {
   }
 }
 
+.menu-btn {
+  margin-left: auto;
+}
 .menu-btn__icon {
   width: 44px;
   height: 44px;
@@ -308,4 +311,23 @@ button {
 
 .menu-btn.is-active .menu-btn__icon-close {
   opacity: 1;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -18,6 +18,8 @@
     //     display: none;
     // }
 
+    margin-left: auto;
+
     &__icon {
         width: 44px;
         height: 44px;
@@ -75,3 +77,23 @@
     opacity: 1;
 }
 
+.header__container{
+    position: relative;
+}
+
+.menu-container{
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color:#212121;
+}
