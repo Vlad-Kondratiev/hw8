@@ -30,6 +30,17 @@
             
         }
 
+        &-close:hover,
+        &-close:focus
+        {
+            
+        fill: var(--accent-color);
+            
+        }
+
+
+
+
         &-close {
             
             opacity: 0;
@@ -77,11 +88,12 @@
     opacity: 1;
 }
 
-.header__container{
+.header{
     position: relative;
 }
 
 .menu-container{
+display: none;
 position: absolute;
 top: 100%;
 left: 0;
@@ -96,4 +108,9 @@ text-align: center;
 letter-spacing: 0.02em;
 
 color:#212121;
+
+&.is-open{
+    display: block;
+}
+
 }
