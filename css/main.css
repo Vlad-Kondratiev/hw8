@@ -339,6 +339,14 @@ button {
   display: block;
 }
 
+.mobile-nave__item {
+  margin-bottom: 32px;
+}
+
+.mobile-nave__item:last-child {
+  margin-bottom: 300px;
+}
+
 .container {
   width: 100%;
   padding-left: 15px;
