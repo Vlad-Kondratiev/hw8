@@ -310,7 +310,7 @@ button {
   transform: scale(1) rotate(2turn);
 }
 
-.menu-container {
+.mobile-menu {
   position: fixed;
   padding: 48px 40px;
   display: flex;
@@ -320,13 +320,11 @@ button {
   width: 100vw;
   height: 100vh;
   background-color: #FFFFFF;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-  outline: 1px solid #2196F3;
   transform: translateX(100%);
   opacity: 0;
 }
 @media screen and (min-width: 768px) {
-  .menu-container {
+  .mobile-menu {
     display: none;
   }
 }
@@ -342,14 +340,14 @@ button {
 }
 
 .mobile-nav__link {
-  margin-bottom: 32px;
   font-family: "Roboto";
   font-weight: 500;
   font-size: 40px;
-  line-height: 1.17;
+  line-height: 47px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: color var(--anim-fast);
 }
 
 .mobile-nav__item:not(:last-child) {
@@ -361,7 +359,7 @@ button {
 }
 
 .mobile-nav__link-phone {
-  font-family: "Roboto";
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
   font-size: 34px;
