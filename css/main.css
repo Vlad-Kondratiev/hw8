@@ -316,10 +316,15 @@ button {
   left: 0;
   width: 100vw;
   height: 100vh;
+<<<<<<< HEAD
   background-color: #fff;
   padding: 48px 40px;
   display: flex;
   flex-direction: column;
+=======
+  background-color: #FFFFFF;
+  transform: translateX(100%);
+>>>>>>> 050990807f7626f11666b188c1e64a1fedd161cc
   opacity: 0;
   transform: translateX(100%);
 }
@@ -359,8 +364,13 @@ button {
   margin-top: auto;
 }
 
+<<<<<<< HEAD
 .mobile-contacts__link-phone {
   font-family: "Roboto";
+=======
+.mobile-nav__link-phone {
+  font-family: var(--main-font);
+>>>>>>> 050990807f7626f11666b188c1e64a1fedd161cc
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
